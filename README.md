@@ -1,5 +1,16 @@
-# games
-Repository for game things, mostly WoW
+# muerr.games
+
+My repository of random game related content.
+
+# Muerr on the Internet
+
+[Discord](http://discordapp.com/) Muerr#3531
+
+[Battle.net](https://us.battle.net) Muerr#1785
+
+[wowprogress](https://www.wowprogress.com/user/Muerr)
+
+[Wago WeakAuras](https://wago.io/p/Muerr)
 
 # License and Author
 
