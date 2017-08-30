@@ -51,42 +51,46 @@ https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-guide
 
 # Crit + Haste
 
-| Finger   | BRH    | Crit > Haste |
-| Head     | BRH    | Crit > Haste |
-| Back     | CoS    | Crit > Haste |
-| Head     | DHT    | Crit > Haste |
-| Wrist    | DHT    | Crit > Haste |
-| Back     | DHT    | Crit > Haste |
-| Finger   | EoA    | Crit > Haste |
-| Feet     | EoA    | Haste > Crit |
-| Finger   | EoA    | Haste > Crit |
-| Waist    | HoV    | Crit > Haste |
-| Back     | HoV    | Haste > Crit |
-| Wrist    | HoV    | Haste > Crit |
-| Neck     | HoV    | Crit > Haste |
-| Wrist    | MoS    | Crit > Haste |
-| Legs     | MoS    | Haste > Crit |
-| Shoulder | NL     | Haste > Crit |
-| Chest    | NL     | Crit > Haste |
-| Hands    | Arc    | Haste > Crit |
-| Shoulder | Arc    | Crit > Haste |
-| Feet     | VotW   | Crit > Haste |
-| Waist    | VotW   | Crit > Haste |
-| Neck     | VotW   | Haste > Crit |
-| Shoulder | VotW   | Haste > Crit |
-| Back     | VotW   | Haste > Crit |
-| Neck     | CoEN   | Haste > Crit |
-| Head     | CoS    | Haste > Crit |
-| Waist    | CoS    | Haste > Crit |
-| Finger   | CoS    | Haste > Crit |
-| Head     | L Kara | Crit > Haste |
-| Shoulder | L Kara | Haste > Crit |
-| Chest    | L Kara | Haste > Crit |
-| Wrist    | L Kara | Crit > Haste |
-| Finger   | U Kara | Haste > Crit |
+| Slot     | Dungeon | Stats        |
+|----------|---------|--------------|
+| Finger   | BRH     | Crit > Haste |
+| Head     | BRH     | Crit > Haste |
+| Back     | CoS     | Crit > Haste |
+| Head     | DHT     | Crit > Haste |
+| Wrist    | DHT     | Crit > Haste |
+| Back     | DHT     | Crit > Haste |
+| Finger   | EoA     | Crit > Haste |
+| Feet     | EoA     | Haste > Crit |
+| Finger   | EoA     | Haste > Crit |
+| Waist    | HoV     | Crit > Haste |
+| Back     | HoV     | Haste > Crit |
+| Wrist    | HoV     | Haste > Crit |
+| Neck     | HoV     | Crit > Haste |
+| Wrist    | MoS     | Crit > Haste |
+| Legs     | MoS     | Haste > Crit |
+| Shoulder | NL      | Haste > Crit |
+| Chest    | NL      | Crit > Haste |
+| Hands    | Arc     | Haste > Crit |
+| Shoulder | Arc     | Crit > Haste |
+| Feet     | VotW    | Crit > Haste |
+| Waist    | VotW    | Crit > Haste |
+| Neck     | VotW    | Haste > Crit |
+| Shoulder | VotW    | Haste > Crit |
+| Back     | VotW    | Haste > Crit |
+| Neck     | CoEN    | Haste > Crit |
+| Head     | CoS     | Haste > Crit |
+| Waist    | CoS     | Haste > Crit |
+| Finger   | CoS     | Haste > Crit |
+| Head     | L Kara  | Crit > Haste |
+| Shoulder | L Kara  | Haste > Crit |
+| Chest    | L Kara  | Haste > Crit |
+| Wrist    | L Kara  | Crit > Haste |
+| Finger   | U Kara  | Haste > Crit |
 
 ## Per Dungeon
 
+| Dungeon                    | Slots Available                   |
+|----------------------------|-----------------------------------|
 | Black Rook Hold            | Finger, Head                      |
 | Court of Stars             | Back                              |
 | Darkheart Thicket          | Head, Wrist, Back                 |
@@ -103,6 +107,8 @@ https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-guide
 
 ## Per Slot
 
+| Slot     | Dungeons              |
+|----------|-----------------------|
 | Back     | CoS, DHT, HoV, VotW   |
 | Chest    | L Kara, NL            |
 | Feet     | EoA, VotW             |
@@ -117,47 +123,52 @@ https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-guide
 
 # Crit + Mastery
 
-| Hands    | BRH    | Crit > Mastery |
-| Waist    | BRH    | Mastery > Crit |
-| Back     | BRH    | Crit > Mastery |
-| Legs     | BRH    | Mastery > Crit |
-| Shoulder | CoS    | Crit > Mastery |
-| Finger   | DHT    | Crit > Mastery |
-| Neck     | DHT    | Mastery > Crit |
-| Chest    | DHT    | Mastery > Crit |
-| Chest    | EoA    | Crit > Mastery |
-| Neck     | EoA    | Crit > Mastery |
-| Shoulder | HoV    | Crit > Mastery |
-| Finger   | HoV    | Crit > Mastery |
-| Hands    | HoV    | Crit > Mastery |
-| Legs     | HoV    | Crit > Mastery |
-| Finger   | HoV    | Mastery > Crit |
-| Feet     | HoV    | Mastery > Crit |
-| Waist    | HoV    | Crit > Mastery |
-| Shoulder | MoS    | Mastery > Crit |
-| Feet     | MoS    | Crit > Mastery |
-| Head     | MoS    | Crit > Mastery |
-| Back     | NL     | Mastery > Crit |
-| Hands    | NL     | Mastery > Crit |
-| Neck     | NL     | Crit > Mastery |
-| Legs     | NL     | Crit > Mastery |
-| Finger   | Arc    | Crit > Mastery |
-| Neck     | Arc    | Mastery > Crit |
-| Back     | VotW   | Mastery > Crit |
-| Head     | VotW   | Crit > Mastery |
-| Wrist    | VotW   | Crit > Mastery |
-| Back     | CoEN   | Mastery > Crit |
-| Shoulder | CoEN   | Mastery > Crit |
-| Waist    | CoEN   | Mastery > Crit |
-| Head     | CoEN   | Mastery > Crit |
-| Legs     | L Kara | Crit > Mastery |
-| Feet     | L Kara | Mastery > Crit |
-| Neck     | L Kara | Crit > Mastery |
-| Hands    | U Kara | Mastery > Crit |
-| Back     | U Kara | Crit > Mastery |
+
+| Slot     | Dungeon | Stats          |
+|----------|---------|----------------|
+| Hands    | BRH     | Crit > Mastery |
+| Waist    | BRH     | Mastery > Crit |
+| Back     | BRH     | Crit > Mastery |
+| Legs     | BRH     | Mastery > Crit |
+| Shoulder | CoS     | Crit > Mastery |
+| Finger   | DHT     | Crit > Mastery |
+| Neck     | DHT     | Mastery > Crit |
+| Chest    | DHT     | Mastery > Crit |
+| Chest    | EoA     | Crit > Mastery |
+| Neck     | EoA     | Crit > Mastery |
+| Shoulder | HoV     | Crit > Mastery |
+| Finger   | HoV     | Crit > Mastery |
+| Hands    | HoV     | Crit > Mastery |
+| Legs     | HoV     | Crit > Mastery |
+| Finger   | HoV     | Mastery > Crit |
+| Feet     | HoV     | Mastery > Crit |
+| Waist    | HoV     | Crit > Mastery |
+| Shoulder | MoS     | Mastery > Crit |
+| Feet     | MoS     | Crit > Mastery |
+| Head     | MoS     | Crit > Mastery |
+| Back     | NL      | Mastery > Crit |
+| Hands    | NL      | Mastery > Crit |
+| Neck     | NL      | Crit > Mastery |
+| Legs     | NL      | Crit > Mastery |
+| Finger   | Arc     | Crit > Mastery |
+| Neck     | Arc     | Mastery > Crit |
+| Back     | VotW    | Mastery > Crit |
+| Head     | VotW    | Crit > Mastery |
+| Wrist    | VotW    | Crit > Mastery |
+| Back     | CoEN    | Mastery > Crit |
+| Shoulder | CoEN    | Mastery > Crit |
+| Waist    | CoEN    | Mastery > Crit |
+| Head     | CoEN    | Mastery > Crit |
+| Legs     | L Kara  | Crit > Mastery |
+| Feet     | L Kara  | Mastery > Crit |
+| Neck     | L Kara  | Crit > Mastery |
+| Hands    | U Kara  | Mastery > Crit |
+| Back     | U Kara  | Crit > Mastery |
 
 ## Per Dungeon
 
+| Dungeon                    | Slots                                      |
+|----------------------------|--------------------------------------------|
 | Black Rook Hold            | Hands, Waist, Back, Legs                   |
 | Court of Stars             | Shoulder                                   |
 | Darkheart Thicket          | Finger, Neck, Chest                        |
@@ -173,6 +184,8 @@ https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-guide
 
 ## Per Slot
 
+| Slot     | Dungeons                    |
+|----------|-----------------------------|
 | Back     | BRH, CoEN, NL, U Kara, VotW |
 | Chest    | DHT, EoA                    |
 | Feet     | HoV, L Kara, MoS            |
