@@ -2,7 +2,7 @@
 
 My repository of random game related content.
 
-# Muerr on the Internet
+# Where To Find Me
 
 [Discord](http://discordapp.com/) Muerr#3531
 
