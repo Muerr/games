@@ -1,14 +1,14 @@
-If you want a "cookie cutter" build and haven't (or won't??) read the guide and sim your character, then do this:
+If you want a "cookie cutter" build and haven't (or won't??) read the [guide](http://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-guide) and/or sim your character, then do this:
 
-1. Get T19 2pc at the highest ilvl you can
+1. Get T19 2pc at the highest ilvl you can - if you have high ilvl offpieces you may not need to get T19, however
 2. Get T20 4pc and other ToS/M+ gear, prioritizing stats as follows:
 - You want ~30%+ crit, 20%+ haste, and as much mastery as you can get after that
-3. Trinkets: stat sticks are fine, try and get stats for #3, or an Arcanocrystal. ToS trinkets: Engine of Eradication and Tarnished Sentinel Owl are good.
+3. Trinkets: stat sticks are fine, try and get stats for #3, or an Arcanocrystal. ToS trinkets: Engine of Eradication and Tarnished Sentinel Owl are good. Buy relinquished trinkets from the vendor in Argus
 4. Run talents 2111112 (stomp/killer cobra) if you don't have Qa'pla legendary boots, 2111113 (stomp/aspect of the beasts) if you do.
 (these are the stomp/owtp/killer cobra or stomp/owtp/aspect of the beast talent sets)
 5. Get a Seafarer's Slidewhistle from the Darkmoon Faire and macro it with Disengage
-6. Use a lust or b-rez pet, or the pets that are most annoying in melee (see !pet for more pet info)
-7. No one really knows whether T21 is going to be great or awful, or whether we're going to keep old tier bonuses
+6. Use a lust or b-rez pet, or the pets that are most annoying in melee (see !pet in discord for more pet info)
+7. No one really knows whether T21 is going to be great or awful, or whether we're going to keep old tier bonuses, probably not
 8. Match your transmog with your pet, you'll do max DPS that way *nod*
 
 (this summarizes almost all the relevant conversation in #beast-mastery since ToS was released)
