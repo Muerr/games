@@ -8,6 +8,8 @@ My repository of random game related content.
 
 [Battle.net](https://us.battle.net) Muerr#1785
 
+[raider.io](https://raider.io/characters/us/hyjal/Muerr)
+
 [wowprogress](https://www.wowprogress.com/user/Muerr)
 
 [Wago WeakAuras](https://wago.io/p/Muerr)
