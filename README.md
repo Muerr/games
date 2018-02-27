@@ -2,6 +2,10 @@
 
 My repository of random game related content.
 
+# World of Warcraft
+
+[crit-haste-mastery-loot](crit-haste-mastery-loot.md)
+
 # Where To Find Me
 
 [Discord](http://discordapp.com/) Muerr#3531
