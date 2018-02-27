@@ -4,9 +4,15 @@ My repository of random game related content.
 
 # World of Warcraft
 
-[crit-haste-mastery-loot](crit-haste-mastery-loot.md)
+* [BM Macros](bm-macros.md)
+* [BM Legion Tier Loot](bm-legion-tier-loot.md)
+* [Netherlight Crucible Summary](nlc.md)
+* [BM Crit/Haste/Mastery loot](crit-haste-mastery-loot.md) - loot tables of where to find gear with crit/haste or crit/mastery
+* [BM 7.3 Changes](bm-7.3-changes.md) - Frequently asked questions about BM in 7.3
 
 # Where To Find Me
+
+[If you're curious about my game name](whats-in-a-name.md)
 
 [Discord](http://discordapp.com/) Muerr#3531
 
@@ -22,4 +28,4 @@ My repository of random game related content.
 
 Copyright 2017 by Muerrischer Zwerg (Muerr)
 
-muerr.games is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+[muerr.games is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.](LICENSE)
