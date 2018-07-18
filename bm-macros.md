@@ -1,4 +1,4 @@
-These are the relevant macros I use for my Beast Master Hunter. Some of these macros I created myself, most of them I modified from other peoples' on various WoW-related forums. If you want to see how a macro would work, [try them out](http://www.macroexplain.com/). Some macros are not BM specific and are usable on any class. There is no specific order here. Hopefully this is helpful to someone.
+These are the relevant macros I use for my Beast Master Hunter. Some of these macros I created myself, most of them I modified from other peoples' on various WoW-related forums. If you want to see how a macro would work, [try them out](http://www.macroexplain.com/). Some macros are not BM specific and are usable on any class. Some combine different things between specs on hunters so I don't run out of "Muerr specific macro" space in the game macro panel UI. There is no specific order here. Hopefully this is helpful to someone.
 
 ## Binding Shot
 
@@ -37,24 +37,57 @@ Turn on or turn off Growl and Thunderstomp based on whether you're in a group. I
 
 ## Buffs
 
-Cast all the buffs! Orcs are strong and have Blood Fury. Add your race's activated ability like Troll Berserking here if desired. But why wouldn't you be playing an orc for BM? :)
+Cast spec-specific buffs with one button. Hold down a modifier (I use `alt`) to cast your aspect if BM or SV, otherwise the main cooldown will be used (`nomod`).
 
 ```
 #showtooltip
-/cast Aspect of the Wild
-/cast Blood Fury
-/cast Bestial Wrath
+/cast [spec:1, mod] Aspect of the Wild; [spec:3, mod] Aspect of the Eagle
+/cast [spec:1, nomod] Bestial Wrath; [spec:2, nomod] Trueshot; [spec:3, nomod] Coordinated Assault
 ```
 
 ## Interrupt
 
-Interrupt! This can be used on mouseover if the current target isn't casting.
+Interrupt! This can be used on mouseover if the current target isn't casting. Works for all three specs.
+
+```
+#showtooltip [spec:1][spec:2] Counter Shot; [spec:3]Muzzle
+/stopcasting
+/stopcasting
+/cast [@mouseover,exists, harm][] Counter Shot
+/cast [@mouseover,exists, harm][] Muzzle
+```
+
+## Core Ability
+
+This puts the "core" ability for all three hunter specs on one button to save space in your macro UI.
 
 ```
 #showtooltip
-/stopcasting
-/stopcasting
-/cast [@mouseover, exists] Counter Shot; Counter Shot
+/petassist
+/petattack
+/use [spec:1][spec:3]Kill Command
+/use [spec:2,@mouseover,harm,exists][spec:2]Aimed Shot
+```
+
+## Filler
+
+Similar to "core" above, this is for your "filler" and works for all three hunter specs.
+
+```
+#showtooltip
+/use [spec:1,@mouseover,harm,exists][spec:1]Cobra Shot
+/use [spec:2,@mouseover,harm,exists][spec:2]Arcane Shot
+/use [spec:3]Raptor Strike
+```
+
+## Focus Generators
+
+For BM and MM, focus generator macro.
+
+```
+#showtooltip
+/use [spec:1,@mouseover,harm,exists][spec:1]Barbed Shot
+/use [spec:2,@mouseover,harm,exists][spec:2]Steady Shot
 ```
 
 ## Explosive Orbs
@@ -62,20 +95,34 @@ Interrupt! This can be used on mouseover if the current target isn't casting.
 Use these to snipe orbs on Explosive affix for M+, and win the admiration of your party.
 
 ```
-/cast [@mouseover, exists, harm] Cobra Shot; Cobra Shot
+/cast [@mouseover, exists, harm][] Cobra Shot
 ```
 
 ```
-/cast [@mouseover, exists, harm] Dire Beast; Dire Beast
+/cast [@mouseover, exists, harm][] Dire Beast
 ``` 
+
+```
+/cast [@mouseover, exists, harm][] Barbed Shot
+```
 
 ## Feign Death
 
 OH SHIT FEIGN DEATH. Both you and your pet.
+
 ```
 #showtooltip
 /cast Feign Death
 /cast Play Dead
+```
+
+## Pets are Healers
+
+If you're using a Spirit Beast, you get Spirit Mend. You probably want to cast this on yourself, or maybe a mouse-over target.
+
+```
+#showtooltip
+/cast [@mouseover,help][@player][] Spirit Mend
 ```
 
 ## MOST IMPORTANT MACRO
@@ -86,11 +133,14 @@ Go to the Darkmoon Faire. Buy a Seafarer's Slidewhistle with the fish currency. 
 
 ```
 #showtooltip
-/cast Disengage
-/cast Seafarer's Slidewhistle
+/use [nomod] Disengage
+/use [mod] Aspect of the Cheetah
+/use Seafarer's Slidewhistle
 ```
 
-As an added bonus, use this with Vengeful Retreat on your Demon Hunter
+As an added bonus, I baked Cheetah in this if you hit a modifier.
+
+As an added bonus, use this with Vengeful Retreat on your Demon Hunter, Blink/Shimmer on your Mage, etc, etc.
 
 ## Exotic Abilities
 
@@ -143,55 +193,57 @@ Plain misdirection without the BW. Usable on Marksman. Not that you'd be playing
 /cast [help][@focus, help][@targettarget,help][@pet,exists] Misdirection
 ```
 
+## Murder of Crows OR Dire Beast
 
-
-## Opener
-
-Not optimized for best use, but it's pretty handy. Remove Titan's Thunder when playing Stomp instead of DF.
-
-Opener Macro. Use all on-use trinkets (mainly because my KJBW is in different slots based on which equipment set I used XD), then if Murder of Crows is talented cast that, put up Bestial Wrath and Titan's Thunder, send in the pet and autoattack.
-
-This would be followed by Dire Frenzy, Aspect of the Wild (see the previous buffs macro), Kill Command, and the normal rotation.
+If talented, this handles casting Dire Beast (with `mod:alt`) or Murder of Crows (`nomod`).
 
 ```
-/use 13
-/use 14
-/cast [talent:6/1] A Murder of Crows
-/cast Bestial Wrath
-/cast Titan's Thunder
-/petattack
-/startattack
+#showtooltip
+/targetenemy [dead][noexists]
+/use [spec:1,talent:4/3,mod:alt,@mouseover, harm, exists][spec:1,talent:4/3,nomod]A Murder of Crows
+/use [spec:1,talent:1/3,nomod,@mouseover, harm, exists][spec:1,talent:1/3,mod:alt]Dire Beast
+/cast Auto Shot
 ```
 
-## Talent Row 5
+## Level 30 Talent - SV and BM
 
-Cast the row 5 talent that you have selected.
-
-```
-#showtooltip [talent:5/1] Binding Shot; [talent:5/2] Wyvern Sting; [talent:5/3] Intimidation
-/cast [talent:5/3] Intimidation
-/cast [talent:5/2] Wyvern Sting
-/cast [talent:5/1] Binding Shot
-```
-
-## Talent Row 6
-
-Cast the row 6 talent that you have selected. Barrage is missing because as a BM YOU SHOULD NEVER USE BARRAGE.
+Both SV and BM have activated abilities for their level 30 talent, so put those on one macro. Bonus: Chimaera Shot is a `@mouseover`, so you can use this on Explosive Orb weeks - and cleave to another mob nearby!
 
 ```
-#showtooltip [talent:6/1] A Murder of Crows; [talent:6/3]Volley
-/cast [talent:6/1] A Murder of Crows
-/cast [talent:6/3] Volley
+#showtooltip
+/use [@mouseover,harm,spec:1,talent:2/3][spec:1,talent:2/3]Chimaera Shot
+/use [spec:2, talent:2/3]Explosive Shot
+/cast Auto Shot
 ```
 
 # Freezing Trap
 
-Toss a freezing trap at your cursor without a modifier key, otherwise target the ground and place one. Strategically.
+Toss a freezing trap at your cursor without a modifier key, otherwise target the ground and place one. Strategically. You wish you had this macro when doing Aggramar on Heroic+ eh? Or, you wish hunters in PUGs did...
 
 ```
 #showtooltip
 /cast [nomod, @cursor] Freezing Trap
 /cast [mod] Freezing Trap
+```
+
+# Tar Trap
+
+Same as Freezing Trap, but this one makes everything sticky.
+
+```
+#showtooltip
+/cast [nomod, @cursor] Tar Trap
+/cast [mod] Tar Trap
+```
+
+## Turtle
+
+Cancels Aspect of the Turtle if it's up, otherwise, Turtle!
+
+```
+#showtooltip
+/cancelaura Aspect of the Turtle
+/use Aspect of the Turtle
 ```
 
 ## Extra Action Button
@@ -252,7 +304,9 @@ Replace MAINTANK and OFFTANK with the main and off tank for your raid group to s
 
 ## ABORT
 
-I bind this to Control-C to cancel any attack and pet attack. Good for "oh shit, time to FD!" moments.
+I bind this to Control-C to cancel any attack and pet attack. Good for 
+
+> Raid Lead: "STOP DPS!"
 
 ```
 /stopcasting
