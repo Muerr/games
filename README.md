@@ -5,7 +5,6 @@ My repository of random game related content.
 # World of Warcraft
 
 * [BM Macros](bm-macros.md)
-
 * [BM 8.0 Prepatch Issues](bm-8.0-prepatch-issues.md) - collecting known [issues in the prepatch](https://github.com/Muerr/games/issues).
 
 ## Legion Content
