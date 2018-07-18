@@ -5,6 +5,11 @@ My repository of random game related content.
 # World of Warcraft
 
 * [BM Macros](bm-macros.md)
+
+* [BM 8.0 Prepatch Issues](bm-8.0-prepatch-issues.md) - collecting known [issues in the prepatch](https://github.com/Muerr/games/issues).
+
+## Legion Content
+
 * [BM Legion Tier Loot](bm-legion-tier-loot.md)
 * [Netherlight Crucible Summary](nlc.md)
 * [BM Crit/Haste/Mastery loot](crit-haste-mastery-loot.md) - loot tables of where to find gear with crit/haste or crit/mastery
