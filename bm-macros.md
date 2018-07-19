@@ -15,7 +15,7 @@ END
 
 My call pet macro. This will summon the specified pet number if the pet is not dead or cast Revive Pet if the pet is dead. If a modifier is held, it will dismiss the pet. Otherwise, it will cast Mend Pet. It will cast Wake Up to ensure the pet is not feigning death.
 
-Pet 1 is my Fel Core Hound (Lust pet), Pet 2 is my Battle Rez pet (Quilen). I have others but those are the most important.
+Pet 1 is my Fel Core Hound (Ferocity), Pet 2 is my Spirit Beast (Tenacity). Pet 3 is a Silithid (Cunning).
 
 ```
 #showtooltip
@@ -130,16 +130,6 @@ Go to the Darkmoon Faire. Buy a Seafarer's Slidewhistle with the fish currency. 
 As an added bonus, I baked Cheetah in this if you hit a modifier.
 
 As an added bonus, use this with Vengeful Retreat on your Demon Hunter, Blink/Shimmer on your Mage, etc, etc.
-
-## Exotic Abilities
-
-This one is pretty dope. It will cast Ancient Hysteria (lust) if the current pet is a Core Hound. It will cast Eternal Guardian (brez) if the current pet is a Quilen. The brez works on mouseover targets, or on your focus to get the main tank back up (see the focus macro earlier). Change the words as required if you use other pets for lust and brez.
-
-```
-#showtooltip [pet:Core Hound]Ancient Hysteria;[pet:Quilen]Eternal Guardian
-/use [pet:Core Hound]Ancient Hysteria
-/use [pet:Quilen,@mouseover,help][pet:Quilen,@focus,help]Eternal Guardian
-```
 
 ## Misdirection
 
