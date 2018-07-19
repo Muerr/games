@@ -110,7 +110,7 @@ If you're using a Spirit Beast, you get Spirit Mend. You probably want to cast t
 
 ```
 #showtooltip
-/cast [@mouseover,help][@player][] Spirit Mend
+/use [@mouseover, help][help][@player] Spirit Mend
 ```
 
 ## MOST IMPORTANT MACRO
