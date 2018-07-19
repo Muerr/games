@@ -2,12 +2,11 @@ These are the relevant macros I use for my Beast Master Hunter. Some of these ma
 
 ## Binding Shot
 
-Cast binding shot at the current target's location if a modifier key is pressed, otherwise cast it with the targetting circle.
+
 
 ```
 #showtooltip
-/cast [mod][@target] Binding Shot
-/cast [nomod] Binding Shot
+/cast [@cursor] Binding Shot
 END
 ```
 
