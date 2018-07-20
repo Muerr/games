@@ -2,8 +2,7 @@ These are the relevant macros I use for my Beast Master Hunter. Some of these ma
 
 ## Binding Shot
 
-
-
+Cast Binding Shot where your Cursor is pointed, rather than using the reticle.
 ```
 #showtooltip
 /cast [@cursor] Binding Shot
@@ -18,7 +17,7 @@ Pet 1 is my Fel Core Hound (Ferocity), Pet 2 is my Spirit Beast (Tenacity). Pet 
 
 ```
 #showtooltip
-/use [@pet,nodead] Call Pet 1; [@pet,dead][nopet]Revive Pet;[mod]Dismiss Pet;Mend Pet
+/use [@pet,nodead,nopet] Call Pet 1; [@pet,dead][nopet]Revive Pet;[mod]Dismiss Pet;Mend Pet
 /cast Wake Up
 /script UIErrorsFrame:Clear()
 ```
