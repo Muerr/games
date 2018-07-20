@@ -54,6 +54,9 @@ This puts the "core" ability for all three hunter specs on one button to save sp
 /petattack
 /use [spec:1][spec:3]Kill Command
 /use [spec:2,@mouseover,harm,exists][spec:2]Aimed Shot
+/use Claw(Basic Attack)
+/use Bite(Basic Attack)
+/use Smack(Basic Attack)
 ```
 
 ## Filler
