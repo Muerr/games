@@ -1,6 +1,4 @@
-This is a quick and dirty set of tips and advise I try to follow when doing my favorite content in the World of Warcraft - Mythic Keystone Dungeons, or "M+." It's not comprehensive, but I try to keep this to the minimal amount of reading. Additional resources will be linked at the bottom.
-
-This content is aimed at people who are newer to M+, or are doing "low to mid" keys - generally +15 or lower. If you're consistently finishing +15 in timeand have a raider.io score over 2000, you don't need anything here. However, if you are trying to get geared up for the start of Shadowlands, or to get your raider.io score over 1000, read on :).
+This is a quick and dirty set of tips and advise I try to follow when doing my favorite content in the World of Warcraft - Mythic Keystone Dungeons, or "M+." It's not comprehensive, see [#Additional Resources] below.
 
 # General Advice
 
@@ -27,21 +25,19 @@ Any keystone is going to have one of two affixes:
 
 ## Fortified
 
-Use DPS cooldowns as often as possible. Learn which mobs in each dungeon are especially problematic and focus those first. This is where you want to do your Big DPS AoE to kill the packs as fast as possible. *Only* save cooldowns for especially problematic bosses that have to be burned down ASAP to avoid big mechanics. Bosses are easier on these weeks, though.
+Use DPS cooldowns as often as possible. Learn which mobs in each dungeon are especially problematic and focus those first. This is where you want to do your Big DPS AoE to kill the packs as fast as possible. *Only* save cooldowns for especially problematic bosses that have to be burned down ASAP to avoid big mechanics.
 
-Be sure to stay on top of interrupts and use your instant cast crowd control to interrupt if your's is on CD. Several dungeons have healer mobs and these should be interrupted on rotations - work with your group on interrupt rotations.
+Be sure to stay on top of interrupts and use your instant cast crowd control to interrupt if your's is on CD. Healing mobs are priority interrupts.
 
-In keys higher than +15, some groups will use Lust on huge pulls of trash packs.
-
-If you have multiple equipment sets, this is a good affix to bring out the AoE items and Azerite powers. E.g., Twilight Devastation, Essence of the Focusing Iris, etc.
+Wear your AoE items - Twilight Devastation corruption, Memebeam Azerite power, etc.
 
 ## Tyrannical
 
-Generally, you want to save your cooldowns for bosses. Practice will tell you about how long it takes to clear trash packs, and how much time you have for your cooldowns to come back up. Depending on the dungeon, the level 4 and 7 affixes, and the route your tank takes to clear trash, you may have time to use your cooldowns a couple times and they'll still be up again for the boss.
+Generally save your big cooldowns for bosses. Practice will tell you about how long it takes to clear trash packs, and how much time you have for your cooldowns to come back up. Depending on the dungeon and other affixes, the route your tank takes to clear trash, you may have time to use your cooldowns a couple times and they'll still be up again for the boss.
 
-Lust is often held for bosses in both Fortified and Tyrannical, and used on cooldown, but sometimes it's held for a specific problematic boss. Work with your group and communicate if you have a Lust effect.
+Lust is often held for bosses in both Fortified and Tyrannical, and used on cooldown, but sometimes it's held for a specific problematic boss. Work with your group and communicate if you have a Lust ability.
 
-If you have multiple equipment sets, this is a good affix to bring out the Single Target items and Azerite powers. E.g., Infinite Stars, Breath of the Dying, etc.
+Wear your single-target items - Tentacle and Infinite Stars corruption, Breath of the Dying Azerite, etc.
 
 # Level 4 Affixes
 
@@ -49,13 +45,13 @@ If you have multiple equipment sets, this is a good affix to bring out the Singl
 
 *This is a DPS affix*
 
-Bolstering is a very problematic affix. It requires that the DPS coordinate so their damage kills mobs in packs as evenly as possible, otherwise you will end up with one or two mobs buffed more than bosses.
+Bolstering is a very problematic affix and adjusts DPS behavior. It requires that the DPS coordinate so their damage kills mobs in packs as evenly as possible, otherwise you will end up with one or two mobs buffed more than bosses.
 
-Ensure that your nameplates addon is configured to show hit point amounts, and is set to "stacking" rather than "overlapping" (this helps with Explosive, too, see below). Make sure you switch targets to the highest HP mobs first so everything gets cleaved down as evenly as possible.
+Ensure that your nameplates addon shows HP amounts, and is set to "stacking" rather than "overlapping" (this helps with Explosive, too, see below). Make sure you switch targets to the highest HP mobs first so everything gets cleaved down as evenly as possible.
 
 Some dungeons have packs with one high-HP mob surrounded by smaller mobs. The Feasting Skyscreamers and Toxic Saurids in Atal'Dazar are a notable example. For packs like this, use *single target* rotations to bring the bigger mob down to the others, and then cleave them evenly with AoE. Killing all the little mobs on top of the big one can often mean a wipe. *Only* use AoE abilities if they're essential for your spec's rotation to have higher throughput for the single target (e.g., DH Eye Beam with the + Haste azerite proc).
 
-Be especially mindful of your positioning and facing so that you don't pull extra mobs that might become bolstered and be a problem.
+Be especially mindful of your positioning and facing so that you don't pull extra mobs that might become bolstered.
 
 The tank should pull packs within their groups ability to cleave things down evenly and prevent one mob from getting too big.
 
@@ -63,21 +59,25 @@ The tank should pull packs within their groups ability to cleave things down eve
 
 *This is a DPS affix*
 
-Bursting is *also* a very problematic affix. It requires that DPS coordinate so their damage kills mobs in a staggered fashion so that the bursting stacks don't outpace the healer's ability to keep everyone's hit points up. *Generally* speaking, keep an eye on the bursting stacks and slow or stop DPS when it reachs 3 or 4 stacks. Be ready to use personal CDs to survive large bursting stacks (over 5).
+Bursting is *also* a very problematic affix and adjusts DPS behavior. It requires that DPS coordinate so their damage kills mobs in a staggered fashion so that the bursting stacks don't outpace the healer's ability to keep everyonealive. *Generally* speaking, keep an eye on the bursting stacks and slow or stop DPS when it reachs 3 or 4 stacks. Be ready to use personal CDs to survive large bursting stacks (over 5).
 
 Be especially careful on packs such as I mentioned in Bolstering where there's little mobs. They can die very quickly and add 5+ stacks of Bursting and then wipe the group.
 
-This is a good use for a WeakAura that reminds you to stop/slow DPS when you have higher stacks of Bursting.
+This is a good use for [a WeakAura that reminds](https://wago.io/search/bursting) you to stop/slow DPS when you have higher stacks of Bursting.
 
 The tank should pull packs within their group's ability to cleave things down in a manner that staggers stacks for maximum survivability.
 
 ## Raging
 
-This is a tank-focused affix. Classes with a "Soothe" such as Hunters and Druids should dispel the raging from low HP mobs, especially ones that are problematic. Mostly this doesn't change rotations for DPS, but it's a  good idea to ensure that you /assist your tank and kill things that are low HP as fast as possible.
+*This is a Tank affix*
+
+While this affects the tank, everyone can help mitigate. Classes with a "Soothe" such as BM Hunters and Druids should dispel the raging from low HP mobs, especially ones that are problematic, or "minibosses." Mostly this doesn't change rotations for DPS, but it's a  good idea to ensure that you `/assist` your tank and kill things that are low HP as fast as possible.
 
 ## Sanguine
 
-This is an *easy* affix to handle, especially for ranged DPS. Melee DPS, position yourself to the *side* of mobs/packs so that when mobs die and the tank moves, you're not constantly walking through pools of Sanguine Ichor. If you have a leap or fast movement cooldown use those to get past / through puddles. Also, try to kill packs of mobs at the same time so their pools drop in a smaller location.
+*This is an easy affix*
+
+Especially for ranged DPS. Melee DPS, position yourself to the *side* of mobs/packs so that when mobs die and the tank moves, you're not constantly walking through pools of Sanguine Ichor. If you have a leap or fast movement cooldown use those to get past / through puddles. Also, try to kill packs of mobs at the same time so their pools drop in a smaller location.
 
 ## Teeming
 
@@ -103,27 +103,29 @@ The best advice I have for Explosive is to create a `mouseover` macro for instan
 /use [@mouseover, exists, harm][] Cobra Shot
 ```
 
-This allows me to mouse over an orb, hit Cobra Shot, and that usually kills it. I have similar on my Demon Hunter for Chaos Strike and Demon's Bite.
+This allows me to mouse over an orb, hit Cobra Shot, and that usually kills it.
 
 ## Grievous
 
 *This is a Healer affix*
 
-It's actually an "everyone" affix - ensure you're minimizing the damage that you take as much as you can. On Grievous weeks, you should probably be using your defensive cooldowns on cooldown, especially with larger problematic packs that do group-wide damage. If you have a mage (or *are* a mage) get food so you can eat a little to top off between pulls. If you have a warlock, get cookies, or go to your garrison proving grounds and get them there. If you have defensive or healing trinkets and azerite powers, those might be worth using as well. Make sure you bring healing potions (Abyssal Healing Potion in BfA Season 4).
+It's actually an "everyone" affix - ensure you're minimizing the damage that you take as much as you can. Use your defensive cooldowns liberally, especially with larger problematic packs that do group-wide damage. Get mage food, warlock healthstones (or the one from your WoD garrison proving grounds). If you have defensive or healing trinkets and Azerite powers, those might be worth using as well. Make sure you bring healing potions, too.
 
-And please be nice to your healers on these weeks, it can be very stressful.
+And please be nice to your healers on these weeks, it can be very stressful for them <3.
 
 ## Necrotic
 
 *This is a Tank affix*
 
-Your tank is going to get stacks of Necrotic, which mean they have reduced healing. Use AoE slows like Hunters' Tar Trap, Shaman Earthbind Totem, and AoE stuns to help your tank kite packs when they're trying to drop stacks.
+Your tank is going to get stacks of Necrotic from melee mobs, which mean they have reduced healing. Use AoE slows like Hunters' Tar Trap, Shaman Earthbind Totem, and AoE stuns to help your tank kite packs when they're trying to drop stacks.
 
 ## Quaking
 
 *This is an everyone affix*
 
-This is pretty easy and was nerfed recently in BfA to only do damage if people overlap their circles. Try to stay spread out as much as possible, and be sure to stop casting when it's about to go off.
+**SPREAD OUT**
+
+This affix is pretty easy and was nerfed recently in BfA, but still try to stay spread out as much as possible, and be sure to stop casting when it's about to go off so you don't get locked for casting.
 
 There's an internal timer on Quaking that can be predicted and managed with [a WeakAura.](https://wago.io/search/quaking).
 
@@ -145,11 +147,11 @@ And for the love of Azeroth, don't do a full broadside AoE opener on every trash
 
 *This is mostly a ranged affix*
 
-Periodically, volcanic plumes will appear under your feet. Step to the side when you see them happen. CANCEL YOUR CASTS. You deal 0 damage if you die. This affix is really easy to manage and avoid.
+Periodically, volcanic plumes will appear under your feet. Step to the side when you see them happen. CANCEL YOUR CASTS. You deal 0 damage if you die. This affix is really easy to manage and avoid, though.
 
 # Level 10+ Affixes
 
-Each season of the expansion has a new "seasonal affix" for level 10+ dungeons. For example in season 1 of Battle for Azeroth we had "Ghuunies" - the little infesting worms that would infect other mobs.
+Each season of the expansion has a new "seasonal affix" for level 10+ dungeons.
 
 Currently, in BfA season 4, we have the Awakened affix that has different Obelisks/pillars that have to be handled. This particular affix affects the routes that are taken to complete the dungeon and often skip problematic trash packs. Work with your tank and group, and in particular, don't go into the obelisk until they've entered (there's a cast timer, so you can focus them and watch their cast bar).
 
@@ -161,8 +163,9 @@ I consider the following Addons *absolutely required* for dungeon content. These
 * WeakAuras
 * Nameplates addon: TidyPlates, ElvUI, etc
 * Keystone timer helper: Angry Keystones *or* MythicPlusTimer
+* [QE Dungeon Tips](https://www.curseforge.com/wow/addons/qe-dungeon-tips)
 
-There's a wealth of information out there. See additional resources.
+There's a wealth of information and other addons out there. See additional resources.
 
 # Additional Resources
 
