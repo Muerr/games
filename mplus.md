@@ -167,6 +167,18 @@ I consider the following Addons *absolutely required* for dungeon content. These
 
 There's a wealth of information and other addons out there. See additional resources.
 
+# BfA Keystone Master Achievement
+
+The achievement for Season 4 account-wide so you can complete dungeons on any character and it will count toward your progress. You can track this in the objective frame like other achievements by running this in game:
+
+```
+/script AddTrackedAchievement(14145) 
+```
+
+This is a Feat of Strength achievement, so you can't add it from the achievements UI in game. This will add a block like this:
+
+![Track BfA Keystone Master Season 4](https://cdn.discordapp.com/attachments/274745084933570570/714906344427094168/track-bfa-ksm-s4.png)
+
 # Additional Resources
 
 https://mythicpl.us - great site with consolidated information about M+ dungeons. It has more affix-specific information, plus other considerations like consumables and group abilities. If you're serious about doing M+, *read everything on this site*.
